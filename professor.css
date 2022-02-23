@@ -1,0 +1,214 @@
+body{
+    background-color:black;
+    color:lemonchiffon;
+    padding: 0.6em;
+    height: 900vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sonicContainer{
+    /* border:solid yellow; */
+    padding:1em;
+}
+@keyframes runSonic {
+    10%{
+        border:solid green;
+    }
+    30%{
+        border-radius:50%;
+    }
+    100%{
+        margin-left:110vw;
+    }
+  }
+
+.runner{
+
+    height:190px;
+    animation:runSonic  ease-out 3s infinite;
+}
+.sonicHolster{
+    background-size:cover;
+}
+.screen{
+    border:solid red;
+    width:60%;
+}
+.btnContainer{
+    display:flex;   
+    text-align:center;
+}
+.btns{
+    margin:1em;
+    width:142px;
+    border-width:.2px;
+    padding:4px;
+    border-radius:12px;
+    border:solid white;
+}
+.btns:hover{
+    margin:1em;
+    transition:.3s;
+    border-width:.2px;
+    padding:4px;
+    background-color:green;
+    border-radius:12px;
+    border:solid white;
+}
+.sonix{
+    border:solid red;
+    border-radius:50%;
+    margin:2em;
+    height:130px;
+}
+.word{
+    /* border:solid white; */
+    padding:.2em;
+    color: yellow;
+    margin:8px;
+}
+.sentenceHolder{
+    display:flex;
+    border: dashed white;
+    padding:1em;
+    justify-content: space-evenly;
+
+}
+.funcBox{
+    border:solid grey;
+    background-color:#333C3F;
+    padding:1em;
+    width:40%;
+}
+.brackets{
+    font-size:42px;
+}
+.secretBox{
+    padding:2em;
+  }
+  .listContainer{
+      border:solid lightsalmon;
+      background-color:lemonchiffon;
+      border-width:.2px;
+      
+      padding:1em;
+      margin:1.2em;
+  }
+  .item{
+    color:black;
+margin:12px;
+  }
+  .concat{
+      text-align: center;
+      font-family:georgia;
+      color:white;
+  }
+  .concatNT{
+    border:solid grey;
+    height:auto;
+    padding:2em;
+  }
+  .screencct{
+      border:solid green;
+      height:auto;
+      
+      background-color: #333C3F;
+  }
+  .dialsContainer{
+      display:flex;
+      justify-content: space-evenly;
+      padding:1em;
+  }
+  .dial{
+      background-color: #333C3F;
+      margin:1em;
+      text-align:center;
+  }
+  .catBtn{
+      width:100%;
+      border-radius:22px;
+      background-color: peru;
+  }
+  
+  #right,#left{
+      color:lime;
+      border:solid lime;
+      width:50%;
+      height:40px;
+  }
+  .bgStr{
+      font-size:42px;
+  }
+  .ryu{
+      height:110px;
+      width:210px;
+      border-radius:50%;
+
+  }
+  .gear{
+      height:60px;
+  }
+  .mover{
+      height:50px;
+  }
+  .groupThem{
+      border:solid white;
+      justify-content: space-evenly;
+      display:flex;
+  }
+  .collector{
+      margin:1em;
+      display:flex;
+  }
+  .rtnVal{
+      margin-top:52px;
+      margin-left: 22px;;
+      color:green;
+      font-family:georgia;
+  }
+  .sonicHolster{
+      border:solid grey;
+  }
+  .temperatureCheck{
+    padding:1em;
+    width:100%;
+  }
+  .cExample{
+      border:solid yellow;
+      padding:1em;
+  }
+  .lineOcode{
+      border:solid white;
+      color:black; 
+      margin:12px;
+      text-align:center;
+      width:145px;
+  }
+  .lineOcode:hover{
+    border:solid white;
+    width:145px;
+    color:lime; 
+    margin:12px;
+    text-align:center;
+}
+.palContainer{
+    /* border:solid green;  */
+    display:flex;
+    justify-content: space-evenly;
+}
+.pdOne, .pdTwo{
+    border:solid white;
+    display: flex;
+    font-size: 42px;
+    padding:22px; 
+}
+#init{
+    color:lime;
+}
+.subMid{
+    justify-content: space-evenly;
+}
+.yonkers{
+    display: flex;
+    justify-content: space-evenly;
+}
